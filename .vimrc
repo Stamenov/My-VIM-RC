@@ -17,6 +17,12 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'tpope/vim-fugitive'
 " Plugin for scala from github
 Plugin 'derekwyatt/vim-scala'
+" Plugin for folding
+Plugin 'tmhedberg/SimpylFold'
+" For autocomplete---Does this go here?XXX
+Bundle 'Valloric/YouCompleteMe'
+" file browsing
+Plugin 'scrooloose/nerdtree'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -176,4 +182,38 @@ set nobackup
 
 set nowb
 
+" add cursorline 
+set cursorline
 
+" setting vertical and horizontal split locations:
+set splitbelow
+set splitright
+
+" split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" integrate system and vim clipboard
+set clipboard=unnamed
+
+" enable folding
+set foldmethod=indent
+set foldlevel=99
+
+" Enable folding with the spacebar
+nnoremap <space> za
+
+" see docstrings in folded code:
+" let g:SimpylFold_docstring_preview=1
+
+" for autocomplete
+let g:ycm_autoclose_preview_window_after_completion=1
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+" ignore pyc file:
+let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+
+" nerdtree coggle to cntl+n
+map <C-n> :NERDTreeToggle<CR>
