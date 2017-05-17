@@ -1,4 +1,7 @@
-For info on nerdtree and YouCompleteMe, see:
-NerdTree: https://github.com/scrooloose/nerdtree
-YouCompleteMe: https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
-Vundle: https://github.com/VundleVim/Vundle.vim
+For info on nerdtree, YouCompleteMe, and Vundle, see:
+
+[NerdTree](https://github.com/scrooloose/nerdtree) 
+
+[YouCompleteMe](https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64) 
+
+[Vundle](https://github.com/VundleVim/Vundle.vim)
