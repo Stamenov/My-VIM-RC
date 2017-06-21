@@ -19,6 +19,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'derekwyatt/vim-scala'
 " Plugin for folding
 Plugin 'tmhedberg/SimpylFold'
+" for syntax checking
+Plugin 'vim-syntastic/syntastic'
 " For autocomplete---Does this go here?XXX
 Bundle 'Valloric/YouCompleteMe'
 " file browsing
