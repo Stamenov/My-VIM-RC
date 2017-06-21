@@ -147,6 +147,11 @@ set wrap linebreak nolist
 
 syntax enable
 
+" colorscheme molokai
+" colorscheme shadesofamber
+colorscheme eldar
+
+
 filetype plugin indent on
 
 " Get decent tabs
