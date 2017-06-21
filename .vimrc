@@ -159,8 +159,10 @@ set tabstop=2
 " Use -/= to backward/forward for buffers
 
 nnoremap - :bprev<CR>
+nnoremap _ :bprev<CR>
 
 nnoremap + :bnext<CR>
+nnoremap = :bnext<CR>
 
 
 
