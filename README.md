@@ -10,3 +10,4 @@ For info on nerdtree, YouCompleteMe, and Vundle, see:
 
 vim
 `PluginInstall`
+python ~/vim/bundle/YouCompleteMe/install.py
