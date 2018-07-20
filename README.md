@@ -7,3 +7,6 @@ For info on nerdtree, YouCompleteMe, and Vundle, see:
 [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 [Eldar color scheme](https://github.com/agude/vim-eldar)
+
+vim
+`PluginInstall`
